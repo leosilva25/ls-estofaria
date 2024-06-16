@@ -1,0 +1,19 @@
+.header {
+    animation-duration: 2s;
+    animation-name: cabeca;
+    animation-delay: 2s;
+}
+
+@keyframes cabeca{
+    from{
+       transform: translateX(-100%);
+        
+    }
+
+
+    to{
+       transform: translateX(0);
+       
+    }
+}
+
